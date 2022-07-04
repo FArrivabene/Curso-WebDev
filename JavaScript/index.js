@@ -7,6 +7,7 @@
  *
  **/
 
+let recusar = true;
 let aceitar = false;
 
 console.log("pedir uber");
