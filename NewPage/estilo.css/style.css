@@ -1,0 +1,35 @@
+/*resetar estruturas*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.parte1 {
+  margin-top: 5px;
+  max-width: 100%;
+  height: 50px;
+  background: red;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+}
+
+.colums {
+  display: flex;
+  display-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px auto;
+}
+
+.imagem {
+  margin: 10px;
+}
