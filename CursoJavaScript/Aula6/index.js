@@ -14,3 +14,7 @@ console.log(test1);
 
 // Não podemos criar variáveis com palavras reservadas
 // Variáveis precisam ter nomes significativos
+// Utilizamos por convenção camelCase
+// Case-sensitives
+// Não podemos redeclarar variáveis com Let
+// Não utilize VAR, utilize Let
