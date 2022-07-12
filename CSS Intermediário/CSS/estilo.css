@@ -155,16 +155,17 @@ ul #atual a {
 }
 */
 
-body {
+/* body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: #f2f2f2;
 }
 
 #container {
-  width: 85%; /* 720px*/
+  width: 960px; /* 720px
   margin: 0 auto;
-  background: #fff;
+  background: #fff url(./imagens/coluna.png) repeat-y top left;
   min-width: 720px;
+
   max-width: 1280px;
 }
 
@@ -181,23 +182,23 @@ body {
   width: 90%;
   overflow: hidden;
 }
-*/
+
 
 #conteudo {
-  width: 75%; /*520px*/
+  width: 75%; /*520px
   float: right;
 }
 
 #navegacao {
-  width: 23%; /*180px*/
+  width: 23%; /*180px
   float: left;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: #d1d1d1;
+  /*background: #d1d1d1; 
 }
 
 #conteudo-principal {
-  width: 63%; /*320px*/
+  width: 63%; /*320px
   float: left;
 }
 
@@ -208,7 +209,7 @@ img.img-noticia {
 }
 
 #conteudo-secundario {
-  width: 34%; /*180px*/
+  width: 34%; /*180px
   float: right;
   background: #d1d1d1;
 }
@@ -233,4 +234,43 @@ img.img-noticia {
   clear: both;
   background: #c4c4c4;
   padding: 5px;
+}
+*/
+
+/***************
+Estilizando tabelas */
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table {
+  width: 600px;
+  border-collapse: separete; /*collapse*/
+}
+
+th,
+td {
+  padding: 7px;
+}
+
+th {
+  text-transform: uppercase;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #111;
+  text-align: left;
+  font-size: 90%;
+  letter-spacing: 0.1em;
+}
+
+tr.alternado {
+  background-color: #efefef;
+}
+
+tr:hover {
+  background-color: #c3e6e5;
+}
+
+.numero {
+  text-align: right;
 }
