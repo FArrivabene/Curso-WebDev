@@ -1,4 +1,4 @@
-/ * {
+/* * {
   border: 1px solid red;
 }
 
@@ -115,7 +115,7 @@ ul a:hover {
 #servicos #navegacao .servicos a {
   color: #085662;
   background: #44cade;
-} */
+} 
 
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -153,7 +153,7 @@ ul #atual {
 ul #atual a {
   background: url(./imagens/aba-esquerda-atual.png) no-repeat top left;
 }
-*/
+
 
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -240,14 +240,16 @@ img.img-noticia {
 /***************
 Estilizando tabelas */
 
+/*
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 table {
   width: 600px;
-  border-collapse: separete; /*collapse*/
+  border-collapse: separete; /*collapse*/ /*
 }
+
 
 th,
 td {
@@ -273,4 +275,30 @@ tr:hover {
 
 .numero {
   text-align: right;
+}
+
+*/
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #643d87 url(../CSS/imagens/fundo.jpg) no-repeat top center;
+}
+
+#container {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+#container img {
+  width: 120px;
+  height: 120px;
+  margin-top: -60px;
+  margin-bottom: 30px;
 }
