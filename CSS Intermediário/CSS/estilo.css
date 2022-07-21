@@ -302,3 +302,27 @@ body {
   margin-top: -60px;
   margin-bottom: 30px;
 }
+
+input {
+  height: 40px;
+  width: 80%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding-left: 40px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+input.email {
+  background-image: url(../CSS/imagens/icone-usuario.png);
+}
+
+input.senha {
+  background-image: url(../CSS/imagens/icone-cadeado.png);
+}
+
+input.logar {
+  text-align: center;
+}
