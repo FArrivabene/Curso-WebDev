@@ -1,4 +1,5 @@
 /*resetar estruturas*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 * {
   margin: 0px;
@@ -15,10 +16,21 @@
   font-size: 30px;
   display: flex;
   justify-content: center;
+  display-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 .button {
   display: flex;
+  justify-content: center;
+  content-width: 100%;
+  border: 1px solid;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  background-color: feeb2d;
+  padding: 5px;
+  margin-left: 20px;
+  color: black;
 }
 
 .colums {
@@ -33,3 +45,5 @@
 .imagem {
   margin: 10px;
 }
+
+/* CSS específico para */
