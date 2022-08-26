@@ -63,3 +63,12 @@ ul {
 #topo ul a:hover {
   color: #69001d;
 }
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos {
+  color: #fff;
+  background: #de003e;
+  cursor: text;
+}
