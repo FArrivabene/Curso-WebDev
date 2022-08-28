@@ -83,21 +83,18 @@ body.fotos #navegacao a#fotos {
   width: 180px;
   float: left;
   margin: 0 0 20px -750px;
-  background: yellow;
 }
 
 #tres-colunas #primario {
   width: 270px;
   float: left;
   margin: 0 0 20px 195px;
-  background: blue;
 }
 
 #primario {
   width: 270px;
   float: left;
   margin: 0 0 20px 195px;
-  background: blue;
 }
 
 #duas-colunas #primario {
@@ -113,7 +110,33 @@ body.fotos #navegacao a#fotos {
   width: 270px;
   float: left;
   margin: 0 0 20px 15px;
-  background: green;
+}
+
+/* Caixa */
+
+#lateral {
+}
+
+.caixa {
+  margin: 10px 0;
+  padding: 5px;
+  background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+  font-size: 1em;
+  background: #294c71;
+  color: #fff;
+  padding: 5px;
+}
+
+.caixa-conteudo {
+  background: #fff;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.caixa-conteudo {
 }
 
 /* Rodape */
