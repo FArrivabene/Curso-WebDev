@@ -29,7 +29,6 @@ body {
 }
 
 /* Barra de navegação */
-
 ul {
   margin: 0;
   padding: 0;
@@ -47,7 +46,7 @@ ul {
 }
 
 #topo ul a {
-  font-site: 0.6em;
+  font-size: 1em;
   display: block;
   padding: 0.5em 1.2em;
   line-height: 2.1em;
@@ -108,8 +107,7 @@ body.fotos #navegacao a#fotos {
 
 /* Caixa */
 
-#lateral {
-}
+#lateral {}
 
 .caixa {
   margin: 10px 0;
